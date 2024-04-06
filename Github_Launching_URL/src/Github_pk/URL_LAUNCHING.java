@@ -12,6 +12,9 @@ public static void main(String[] args)
 	driver.get("https://www.facebook.com");	
 	System.out.println("Here Kiran");
 	driver.get("https://www.instagram.com");	
+	//driver.quit();
+	System.out.println("Here Anagha");
+	driver.get("https://www.youtube.com");
 	driver.quit();
 }
 }
