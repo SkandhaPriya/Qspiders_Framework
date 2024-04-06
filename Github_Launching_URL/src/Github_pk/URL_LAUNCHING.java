@@ -10,6 +10,8 @@ public static void main(String[] args)
 	System.setProperty("webdriver.gecko.driver", "./softwares/geckodriver.exe");
 	WebDriver driver = new FirefoxDriver();
 	driver.get("https://www.facebook.com");	
+	System.out.println("Here Kiran");
+	driver.get("https://www.instagram.com");	
 	driver.quit();
 }
 }
