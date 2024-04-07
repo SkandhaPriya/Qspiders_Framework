@@ -14,6 +14,9 @@ public static void main(String[] args)
 	System.out.println("Here Kiran");
 	driver = new FirefoxDriver();
 	driver.get("https://www.instagram.com");	
+	//driver.quit();
+	System.out.println("Here Anagha");
+	driver.get("https://www.youtube.com");
 	driver.quit();
 }
 }
